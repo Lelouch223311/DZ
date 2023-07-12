@@ -33,7 +33,7 @@
     margin-top: 20px;
     margin-left: -190px;
     line-height: 140px;
-    background-image: url(./img/sharingan.png);
+    background-image: url(../img/sharingan.png);
 }
 
 .div2 {
@@ -47,7 +47,7 @@
     margin-top: 20px;
     margin-left: 220px;
     line-height: 140px;
-    background-image: url(./img/sharingan.png);
+    background-image: url(../img/sharingan.png);
 }
 
 .div3 {
@@ -107,6 +107,6 @@
     margin-top: 20px;
     margin-left: -190px;
     filter: brightness(100%);
-    background-image: url(./img/sharingan.png);
+    background-image: url(../img/sharingan.png);
 
 }
