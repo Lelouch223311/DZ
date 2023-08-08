@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="perekl.css">
+</head>
+<body>
+    <svg id="noise-svg">
+        <filter id='noiseFilter'>
+            <feTurbulence type='fractalNoise' baseFrequency='0.5' numOctaves='3' stitchTiles='stitch' />
+        </filter>
+        <rect id="noise-rect" filter='url(#noiseFilter)' />
+      </svg>
+    
+      <div class="container on" onclick="this.classList.toggle('off'); this.classList.toggle('on')">
+        <div class="toggle">
+          <div class="detail"></div>
+          <div class="detail"></div>
+          <div class="detail"></div>
+        </div>
+      </div>
+    
+      <div class="footer">
+      Made by: RafaQ <br>
+      Designed by: <a href="https://dribbble.com/shots/20823763-Toggle-Button-Volume-Button" target="_blank" rel="noopener noreferrer">Naveed Ahmad Khan</a> on Dribbble
+      </div>
+</body>
+</html>

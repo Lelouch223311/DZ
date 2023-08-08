@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    user-select: none;
+}
+.boddy {
+    background-color: gray;
+    width: 500px;
+    height: 300px;
+    margin-left: 110px;
+    margin-top: 110px;
+}
+#One{
+    width: 100px;
+    border: 2px solid gray;
+}
+#second-name{
+    border: 2px solid red;
+    margin-left: 12px;
+}
+input:valid{
+    border: 2px solid green;
+}
+input:invalid {
+    border: 2px solid red;
+}
+input:valid+.validity-icon::before {
+    content: '✓';
+    color: green;
+    /* ✓ */
+}
+
+input:valid+.invalidity-icon::before {
+    content: '✖';
+    color: red;
+    /* ✖ */
+}
+
+.checkbox-round {
+    width: 50px;
+    height: 10px;
+}
+.checkbox-round1 {
+    background-color: white;
+    vertical-align: middle;
+    
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+    width: 60px;
+    height: 15px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+}
+.green{
+    margin-top: -42px;
+    margin-left: 5px;
+}
+.red{
+    margin-top: -51px;
+    margin-left: 184px;
+}
+.SubsRed{
+    margin-left: 40px;
+    margin-top: -41px;
+}
+.Subs{
+    margin-top: -41px;
+    margin-left: 65px;
+}
+#check1{
+    background-color: white;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+    width: 60px;
+    height: 15px;
+    border-radius: 10px;
+    border: 1px solid red;
+    margin-top: -20px;
+    margin-left: 150px;
+}
+.RadioB{
+    margin-top: 30px;
+}
+.activ{
+    border-radius: 10px;
+    height: 30px;
+    width: 60px;
+    color: black;
+    background-color: rgb(3, 255, 3);
+}
+.danger{
+    border-radius: 10px;
+    height: 30px;
+    width: 60px;
+    color: white;
+    background-color: rgb(247, 118, 140);
+}
+/* .activ:active{
+    background-color: crimson;
+    color: black;
+} */
+.disabled{
+    background-color: rgb(101, 101, 101);
+    height: 30px;
+    width: 60px;
+    border-radius: 10px;
+    color: white;
+}
+.Buttons1, .Buttons2, .Buttons3, .Buttons4, .Buttons5, .BMinus, .BPlus{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    gap: 5px;
+}
+.plus{
+    border-radius: 20px;
+    height: 25px;
+    width: 25px;
+    background-color: lime;
+}
+.minus{
+    border-radius: 20px;
+    height: 25px;
+    width: 25px;
+    background-color: red;
+}
+.hover{
+    border-radius: 10px;
+    width: 60px;
+    height: 30px;
+    background-color: green;
+    color: white;
+}
+.hover2{
+    border-radius: 10px;
+    width: 60px;
+    height: 30px;
+    background-color: crimson;
+    color: white;
+}
+#textarea1{
+    margin-top: 10px;
+}
